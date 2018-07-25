@@ -16,7 +16,7 @@ class stack():
     def startGame(self):
         pygame.time.set_timer(USEREVENT +1, 800)
         while self.gaming:
-            for i in range(0,7):
+            for i in range(0,8):
                 sense.set_pixel(i, 7, (0, 0, 255))
                 time.sleep(1)
                 sense.clear()
